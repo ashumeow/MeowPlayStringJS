@@ -1,0 +1,17 @@
+{
+  "name": "MeowPlayStringJS",
+  "version": "v1.0.0",
+  "description": "A tiny javascript strings library where the text strings gets converted into binary numbers and then, binary numbers into text strings",
+  "license": "MIT license",
+  "repository": "ashumeow/MeowPlayStringJS",
+  "author": {
+    "name": "Aswini S",
+    "github": "ashumeow",
+    "twitter": "@ashumeow",
+    "email": "ashumeow@live.com",
+    "url": "http://windowsgeekpro.in"
+  },
+  "files": [
+    "meow_play_string.js"
+  ]
+}
