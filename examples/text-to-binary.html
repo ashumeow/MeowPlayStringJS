@@ -4,16 +4,17 @@
 <meta charset="utf-8" />
 <title>MeowPlayStringJS - Text to Binary Converter</title>
 <meta name="Keywords" content="MeowPlayStringJS,ascii,binary,converter,javascript,function,method" />
+<link href="css/meow.css" rel="stylesheet" type="text/css" media="screen" />
 <script src="meow_play_string.js"></script>
-<script src="dependencies/jquery-2.1.4/src/jquery.js"></script>
+<script src="dependencies/jquery-2.1.4.min.js"></script>
 
 <script>
 	$(function() {
-		$('textarea#meow_ascii').change(function() {
-			$('textarea#meow_binary').val(meow_play_string($(this).val(), 'meow_ascii'));
+		$('textarea#ascii').change(function() {
+			$('textarea#binary').val(meow_play_string($(this).val(), 'ascii'));
 		});
-		$('textarea#meow_binary').change(function() {
-			$('textarea#meow_ascii').val(asciibin($(this).val(), 'meow_binary'));
+		$('textarea#binary').change(function() {
+			$('textarea#ascii').val(asciibin($(this).val(), 'binary'));
 		});
 	});
 </script>
@@ -21,10 +22,10 @@
 <body>
 	<div id="wrapper">
 		<h2>MeowPlayStringJS -- Text to Binary Converter</h2>
-		<label for="meow_ascii">Text</label>
-		<textarea id="meow_ascii" cols="40" rows="20"></textarea>
-		<label for="meow_binary">Binary</label>
-		<textarea id="meow_binary" cols="40" rows="20"></textarea>
+		<label for="ascii">Text</label>
+		<textarea id="ascii" cols="40" rows="20"></textarea>
+		<label for="binary">Binary</label>
+		<textarea id="binary" cols="40" rows="20"></textarea>
 		<input type="button" value="Convert" />
 	</div>
 </body>

@@ -4,7 +4,7 @@ function meow_play_string(meowConvert, meowType) {
 	////////////////////////////
 	// for binary conversion
 	///////////////////////////
-	if(meowType == 'meow_binary') {
+	if(meowType == 'binary') {
 		// for removing whitespace
 		meowConvert = meowConvert.replace(/ /g,'');
 		// for removing line space
@@ -31,7 +31,7 @@ function meow_play_string(meowConvert, meowType) {
 	//////////////////////////////////////
 	// For ASCII (i.e. text) conversion
 	/////////////////////////////////////
-	if (meowType == 'meow_ascii') {
+	if (meowType == 'ascii') {
 		var meow_binary = '';
 		var meow_cur_alpha;
 		
