@@ -1,6 +1,6 @@
 {
   "name": "MeowPlayStringJS",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "description": "A tiny javascript strings library where the text strings gets converted into binary numbers and then, binary numbers into text strings",
   "license": "MIT license",
   "repository": "ashumeow/MeowPlayStringJS",
