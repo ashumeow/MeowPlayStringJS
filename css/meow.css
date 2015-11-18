@@ -49,11 +49,8 @@ table {
 	border-spacing: 0;
 }
 
-/*START EDITING HERE*/
-
 body {			
 	background-color:#F8F7F3;
-	background-image:url(../images/diagonal_stripe_gray.png);
 	font-family: 'trebuchet MS'; 
 	font-size: .9em;
 }
